@@ -191,3 +191,5 @@ for j in range(0, 10):
 edf = pd.DataFrame(e)
 ## Calculate the RMSFE, that is, the square root of the MSFE
 np.sqrt(edf.apply(np.square).mean())
+
+#test
